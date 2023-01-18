@@ -1,6 +1,6 @@
 const eyd = document.querySelector(".eyd");
 
-const future = new Date("March 21 2022 00:00:00");
+const future = new Date("March 21 2023 00:00:00");
 let F = () => {
   now3 = new Date();
   let norooz = future.getTime() - now3.getTime();
